@@ -9,20 +9,17 @@ This project demonstrates how to efficiently read and clean CSV data using Panda
 
 
 # Setup and Imports
-1.Install required libraries.
-2.Import pandas and psycopg2.
-3.Read and Clean Data:
-4.Read the CSV file using pandas.
-5.Clean the data (handle missing values, correct data types, filter data).
-6.Create and Connect to the PostgreSQL Database
-7.Establish a connection to PostgreSQL using psycopg2.
-8.Create a database and table if they do not exist.
-9.Insert Data into PostgreSQL
-10.Prepare the SQL insert query.
-11.Insert the cleaned data into the database.
-12.Close the Connection
-
-Close the database cursor and connection.
-Verify the Data:
-
-Use pgAdmin4 or DBeaver CE to check and verify the data in the database.
+1. Install required libraries.
+2. Import pandas and psycopg2.
+3. Read and Clean Data:
+4. Read the CSV file using pandas.
+5. Clean the data (handle missing values, correct data types, filter data).
+6. Create and Connect to the PostgreSQL Database
+7. Establish a connection to PostgreSQL using psycopg2.
+8. Create a database and table if they do not exist.
+9. Insert Data into PostgreSQL
+10. Prepare the SQL insert query.
+11. Insert the cleaned data into the database.
+12. Close the Connection
+13. Close the database cursor and connection.
+14. Verify the Data: Use pgAdmin4 or DBeaver CE to check and verify the data in the database.
